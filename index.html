@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Explore Tokyo, Japan">
+    <meta name="keywords" content="Tokyo, Japan, travel, attractions, culture">
+    <meta name="author" content="Mao Miyazaki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>Visit Tokyo, Japan</title>
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5em;
+            color: #333;
+            background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+        }
+
+        header {
+            max-width: 2000px;
+            margin: auto;
+            padding: 10px;
+        }
+        section {
+            max-width: 1000px;
+            margin: 0 auto;  
+            padding: 20px;
+        }
+        footer {
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+        }
+        header {
+            text-align: center;
+            background-color: lightpink;
+            color: white;
+            padding: 20px;
+        }
+        .gif-top-left {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 180px; 
+            height: auto;
+            z-index: 100; 
+        }
+        .gif-top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 180px; 
+            height: auto;
+            z-index: 100; 
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-family: 'Indie Flower', cursive;
+        }
+        h2{
+             font-family: 'Rubik Bubbles', cursive;
+             font-size: 2.2em;
+             color: #FF1F80;
+        }
+        h3 {
+            text-align: center; 
+            font-family: 'Rajdhani', sans-serif;
+            margin: 0 auto;     
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: darkgrey;
+        }
+
+        nav a {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .attraction {
+            width: 400px; 
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid #FFBC05;
+            background-color: floralwhite;
+            border-radius: 30px;
+        }
+
+        .attraction img {
+            float: left;
+            margin-right: 20px;
+        }
+        .clear {
+            clear: both;
+        }
+
+        footer {
+            text-align: center;
+            background-color: lightsteelblue;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .attraction {
+                width: 100%;
+            }
+        }
+</style>       
+</head>
+    
+<body>
+<img src="cherry_blossom.gif" alt="Animated GIF" class="gif-top-left">
+<img src="cherry_blossom.gif" alt="Animated GIF" class="gif-top-right">
+<header>
+    <h1>Welcome to Tokyo, Japan</h1>
+    <p>ようこそ日本へ</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#attractions">Top Attractions</a>
+    <a href="#info">City Info</a>
+</nav>
+
+<section id="about" class="content">
+    <h2>About Tokyo</h2>
+    <p>Tokyo, the capital of Japan, is a bustling metropolis that offers an unforgettable experience for visitors. Known for its skyscrapers, historical landmarks, cultural festivals, and a blend of traditional and modern life, Tokyo has something to offer for everyone. Whether you're exploring ancient temples, indulging in world-class cuisine, or marveling at cutting-edge technology, you'll find endless possibilities in this vibrant city.</p>
+</section>
+
+<section id="attractions" class="content">
+    <h2>Top Attractions</h2>
+    <div class="container">
+        <div class="attraction">
+            <img src="skytree.jpg" alt="Tokyo Skytree">
+            <h3>Tokyo Skytree</h3>
+            <p>The tallest structure in Japan, offering panoramic views of the entire city. You can explore the observation decks or dine in the restaurants at the top. <br><a href="https://www.gotokyo.org/en/destinations/eastern-tokyo/skytree-and-around/index.html" target="_blank">Learn more about Tokyo Skytree</a>.</p>
+        </div>
+        
+        <div class="attraction">
+            <img src="sensoji_temple.jpg" alt="Senso-ji Temple">
+            <h3>Senso-ji Temple</h3>
+            <p>Tokyo's oldest temple, located in Asakusa, attracts millions of visitors each year. The temple’s rich history and the bustling Nakamise Street nearby offer a perfect cultural experience. <br><a href="https://www.japan-guide.com/e/e3001.html" target="_blank">Learn more about Senso-ji Temple</a>.</p>
+        </div>
+        
+        <div class="attraction">
+            <img src="shibuya_crossing.jpg" alt="Shibuya Crossing">
+            <h3>Shibuya Crossing</h3>
+            <p>One of the busiest intersections in the world, Shibuya Crossing symbolizes the fast-paced life of Tokyo. It’s a must-see for any visitor to experience the hustle and energy of the city. <br><a href="https://www.japan.travel/en/spot/2177/" target="_blank">Learn more about Shibuya Crossing</a>.</p>
+        </div>
+        
+        <div class="attraction">
+            <img src="takeshita_street.jpg" alt="Takeshita Street">
+            <h3>Takeshita Street</h3>
+            <p>Located in the Harajuku district of Tokyo, is a vibrant and bustling pedestrian street famous for its quirky fashion, trendy boutiques, and unique food stalls. A popular destination for youth culture and fashion enthusiasts, it offers everything from colorful accessories to eccentric clothing styles. <br><a href="https://tokyocheapo.com/entertainment/harajuku-takeshita-street-guide/" target="_blank">Learn more about the Takeshita Street</a>.</p>
+        </div>
+    </div>
+</section>
+
+<section id="info" class="content">
+    <h2>City Information</h2>
+    <ul>
+        <li>Population: 13.96 million (as of 2020)</li>
+        <li>Geography: Located on the eastern coast of Honshu Island, Japan's largest island.</li>
+        <li>Language: Japanese (English widely understood in tourist areas)</li>
+        <li>Weather: Temperate, with hot summers and cool winters.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mao Miyazaki</p>
+    <p>Image credits:</p>
+    <ul>
+        <li><strong>Tokyo Skytree</strong> by <a href="https://www.gotokyo.org/en/destinations/eastern-tokyo/skytree-and-around/index.html" target="_blank">Tokyo Convention and Visitors Bureau</a></li> 
+        <li><strong>Senso-ji Temple</strong> by <a href="https://www.japan-guide.com/e/e3001.html" target="_blank">Japan-guide</a></li>
+        <li><strong>Shibuya Crossing</strong> by <a href="https://www.japan.travel/en/spot/2177/" target="_blank">Japan National Tourism Organization</a></li>
+        <li><strong>Takeshita Street</strong> by <a href="https://tokyocheapo.com/entertainment/harajuku-takeshita-street-guide/" target="_blank">Lily Crossley-Baxter</a></li>
+        <li><strong>Cherry Blossom</strong> by <a href="https://pixabay.com/gifs/cherry-blossoms-flowers-natural-6383/" target="_blank">Pixabay</a></li>
+    </ul>
+</footer>
+    
+</body>
+</html>
